@@ -60,7 +60,7 @@
    论文对若干步骤写得偏概括。小波层数、子带怎么叠成输入通道、残差块内部顺序，都是按文字自己推的，不能保证和作者代码一致。
 
 3. **大文件不在仓库里**  
-   PCAP、归一化 `.npy`、小波缓存、`.h5` 模型都在本地（见 `.gitignore` 和 `GIT_PUSH_RECORD.md`）。别人 clone 下来不能直接 eval，得自己准备数据和重跑。这是有意为之——文件大到 GitHub 根本推不上去。
+   PCAP、归一化 `.npy`、小波缓存、`.h5` 模型都在本地（见 `.gitignore`）。别人 clone 下来不能直接 eval，得自己准备数据和重跑。这是有意为之——文件大到 GitHub 根本推不上去。
 
 4. **训练环境偏 Windows + DirectML**  
    大尺寸（尤其 452）吃显存，也更容易出设备重置类错误。换 CUDA 机器行为可能不一样，我这边没有完整对照。
@@ -101,7 +101,7 @@ python run_pipeline.py --mode test
 python run_pipeline.py --mode table2
 ```
 
-推送备忘见 `GIT_PUSH_RECORD.md`。本地大数据分支是 `tow-ids-repro`，不要直接 push 那个。
+本地大数据分支是 `tow-ids-repro`，不要直接 push 那个；公开同步用 `tow-ids-code`。
 
 ## 数据集下载
 
