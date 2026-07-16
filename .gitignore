@@ -24,3 +24,7 @@ test_labels/
 
 # Generated channel preview images at repo root
 /*.png
+
+# Personal notes (keep local, do not push)
+results/*组会*
+results/*汇报*

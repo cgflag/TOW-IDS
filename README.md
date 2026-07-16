@@ -1,5 +1,7 @@
 # TOW-IDS: Intrusion Detection System Based on Three Overlapped Wavelets for Automotive Ethernet
 
+> Reproduction status (honest notes): [REPRODUCTION_NOTES.md](./REPRODUCTION_NOTES.md)
+
 ## Project Overview
 This project is dedicated to developing an effective Intrusion Detection System (IDS) aimed at identifying Abnormal behaviors in a network traffic which is collected from CAN, AVB, and gPTP
 protocols in Automotive Ethernet. Utilizing Deep Learning algorithms like ResNet50 and EfficientNetB0 and a customized DCNN model, this system is designed to detect abnormal network traffic. refer to the  [TOW-IDS - IEEE paper link](https://ieeexplore.ieee.org/document/9947068/algorithms?tabFilter=dataset#algorithms)
