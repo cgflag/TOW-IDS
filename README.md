@@ -1,6 +1,7 @@
 # TOW-IDS: Intrusion Detection System Based on Three Overlapped Wavelets for Automotive Ethernet
 
-> Reproduction status (honest notes): [REPRODUCTION_NOTES.md](./REPRODUCTION_NOTES.md)
+> Reproduction status (honest notes): [REPRODUCTION_NOTES.md](./REPRODUCTION_NOTES.md)  
+> Table-II local results (tables + figures, no retraining): [results/summary/table2_summary.md](./results/summary/table2_summary.md)
 
 ## Project Overview
 This project is dedicated to developing an effective Intrusion Detection System (IDS) aimed at identifying Abnormal behaviors in a network traffic which is collected from CAN, AVB, and gPTP
@@ -40,3 +41,4 @@ python run_pipeline.py --mode train_all
 - `tow_ids_no_wavelet.py`: Train custom model directly on non-wavelet normalized data.
 - `resnet_model.py`: Train ResNet50 transfer-learning model.
 - `EfficientNetB0.py`: Train EfficientNetB0 transfer-learning model.
+- `plot_table2_results.py`: Rebuild Table-II summary tables/figures from `results/table2_results.csv` (no training).

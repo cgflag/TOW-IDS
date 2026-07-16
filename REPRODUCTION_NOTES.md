@@ -33,7 +33,14 @@
 
 ## 当前实验结果（本机，45/45）
 
-汇总文件：`results/table2_results.json`
+汇总文件：`results/table2_results.json`  
+可读表 + 图（由已有 CSV 生成，不重训）：[`results/summary/table2_summary.md`](./results/summary/table2_summary.md)
+
+重新生成命令：
+
+```bash
+python plot_table2_results.py
+```
 
 | 项 | 数值 |
 |---|---|
