@@ -28,3 +28,6 @@ test_labels/
 # Personal notes (keep local, do not push)
 results/*组会*
 results/*汇报*
+
+# Personal / local-only docs
+GIT_PUSH_RECORD.md
