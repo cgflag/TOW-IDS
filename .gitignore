@@ -1,0 +1,26 @@
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Large data / artifacts (keep locally, do not push)
+*.pcap
+*.h5
+*.npy
+/models/
+normalized_packet_data/
+test_normalized_packet_data/
+wavelet_transformed_data/
+test_wavelet_transformed_data/
+wavelet_experiments/
+figures/
+fig_260428/
+labels/
+test_labels/
+
+# Root label CSVs can be large; keep locally
+/y_train.csv
+/y_test.csv
+
+# Generated channel preview images at repo root
+/*.png

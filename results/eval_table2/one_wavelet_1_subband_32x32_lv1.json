@@ -1,0 +1,23 @@
+{
+  "model_path": "models\\table2\\one_wavelet_1_subband_32x32_lv1_tow-ids_model.h5",
+  "test_data_path": "test_wavelet_transformed_data\\table2\\layered_test_one_wavelet_1_subband_32x32_lv1.npy",
+  "test_label_path": "test_labels\\32x32.csv",
+  "classes": [
+    "Abnormal",
+    "Normal"
+  ],
+  "accuracy": 0.9687121028377396,
+  "precision": 0.9810274372446001,
+  "recall": 0.9631752400057315,
+  "f1_score": 0.9720193767623455,
+  "confusion_matrix": [
+    [
+      10520,
+      260
+    ],
+    [
+      514,
+      13444
+    ]
+  ]
+}

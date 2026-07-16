@@ -1,0 +1,55 @@
+{
+  "wavelet_type": "three_wavelets_1_subband",
+  "image_size": "452x452",
+  "level": 3,
+  "model_path": "models\\table2\\three_wavelets_1_subband_452x452_lv3_tow-ids_model.h5",
+  "test_data_path": "test_wavelet_transformed_data\\table2\\layered_test_three_wavelets_1_subband_452x452_lv3.npy",
+  "test_label_path": "test_labels\\452x452.csv",
+  "classes": [
+    "Abnormal",
+    "Normal"
+  ],
+  "accuracy": 0.985730593607306,
+  "precision": 0.9858323494687131,
+  "recall": 0.9846698113207547,
+  "f1_score": 0.9852507374631269,
+  "f_measure_macro": 0.9857154737619669,
+  "f_measure_abnormal": 0.9852507374631269,
+  "confusion_matrix": [
+    [
+      835,
+      13
+    ],
+    [
+      12,
+      892
+    ]
+  ],
+  "classification_report": {
+    "Abnormal": {
+      "precision": 0.9858323494687131,
+      "recall": 0.9846698113207547,
+      "f1-score": 0.9852507374631269,
+      "support": 848.0
+    },
+    "Normal": {
+      "precision": 0.9856353591160221,
+      "recall": 0.9867256637168141,
+      "f1-score": 0.986180210060807,
+      "support": 904.0
+    },
+    "accuracy": 0.985730593607306,
+    "macro avg": {
+      "precision": 0.9857338542923676,
+      "recall": 0.9856977375187844,
+      "f1-score": 0.9857154737619669,
+      "support": 1752.0
+    },
+    "weighted avg": {
+      "precision": 0.9857307060447219,
+      "recall": 0.985730593607306,
+      "f1-score": 0.9857303283468614,
+      "support": 1752.0
+    }
+  }
+}

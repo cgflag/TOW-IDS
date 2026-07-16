@@ -1,0 +1,23 @@
+{
+  "model_path": "models\\228x228_tow-ids_model.h5",
+  "test_data_path": "test_wavelet_transformed_data\\layered_test_228x228_normalized.npy",
+  "test_label_path": "test_labels\\228x228.csv",
+  "classes": [
+    "Abnormal",
+    "Normal"
+  ],
+  "accuracy": 0.964573732718894,
+  "precision": 0.9826989619377162,
+  "recall": 0.9482470784641068,
+  "f1_score": 0.9651656754460493,
+  "confusion_matrix": [
+    [
+      1645,
+      30
+    ],
+    [
+      93,
+      1704
+    ]
+  ]
+}
